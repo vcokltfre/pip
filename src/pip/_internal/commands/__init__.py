@@ -23,6 +23,10 @@ commands_dict = OrderedDict([
         'pip._internal.commands.install', 'InstallCommand',
         'Install packages.',
     )),
+    ('unremove', CommandInfo(
+        'pip._internal.commands.install', 'InstallCommand',
+        'Unremove packages.',
+    )),
     ('download', CommandInfo(
         'pip._internal.commands.download', 'DownloadCommand',
         'Download packages.',
